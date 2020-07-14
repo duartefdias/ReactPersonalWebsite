@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "duarte dias",
   title: "Hi, I'm Duarte",
-  subTitle: emoji("Passionate about software engineering 🚀 experienced in building Full-Stack Web applications with JavaScript / Python / Vuejs / Reactjs / Nodejs / MongoDB /SQL and other techologies."),
+  subTitle: emoji("Passionate about software engineering 🚀 experienced in building Full-Stack Web applications with JavaScript / Python / Vuejs / Reactjs / Nodejs / MongoDB / SQL and other techologies."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -30,11 +30,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "COMPUTER SOFTWARE ENGINEER PASSIONATE TO LEARN ABOUT NEW TECHNOLOGIES",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Experience in developing distributed full-stack applications"),
+    emoji("⚡ Knowledgeable in cloud architectures")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -106,8 +105,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Frontend",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -115,7 +114,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     }
   ]
 };
@@ -127,29 +126,28 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Support Engineer",  
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoftLogo.png"),
+      date: "September 2019 – Present",
+      desc: "Daily engaging with customers, partners and engineers from all around the world to empower companies in using Microsoft Dynamics 365.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Close contact with product engineering team to improve Microsoft products."
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-Stack Engineer / Project Manager",   
+      company: "Junitec",
+      companylogo: require("./assets/images/junitecMinLogo.png"),
+      date: "November 2018 – August 2019",
+      desc: "Managing and working alongside a team of 3 talented engineering students from Instituto Superior Técnico in order to develop a platform for managing all of the 60.000+ art pieces of The Berardo Collection over a 10 month period of time."
     },
     {
       role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Uphill",
+      companylogo: require("./assets/images/uphillLogo.jpg"),
+      date: "July 2018 – Sep 2018",
+      desc: "Developing testing software for an Angular full-stack medical-related application."
     },
   ]
 };
@@ -168,15 +166,15 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/colecaoBerardo.jpg"),
+      link: "https://en.museuberardo.pt/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/junitecLogo.png"),
+      link: "https://junitec.ist.utl.pt/en/"
     }
   ]
 };
@@ -185,36 +183,48 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements & Certifications 🏆 "),
+  subtitle: "Achievements, Certifications and other awards",
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      //title: "Azure Data Scientist ",
+      //subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/azure-data-scientist-associate.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Credential", url: "https://www.youracclaim.com/badges/5274ca5b-7924-4cf1-97d2-62ba77fe9215" },
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/azure-fundamentals-600x600.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Credential", url: "https://www.youracclaim.com/badges/0a313c97-d21d-43f4-a958-85c8162b8795" },
       ]
-    }
+    },
+    {
+      image: require("./assets/images/CERT-Expert-Dynamics365-Power-Platform-Solution-Architect.png"),
+      footerLink: [
+        { name: "Credential", url: "https://www.youracclaim.com/badges/07ba479d-761d-40a2-8757-b98b14a14732" },
+      ]
+    },
+    {
+      image: require("./assets/images/dynamics365-for-marketing-functional-consultant-associate-600x600.png"),
+      footerLink: [
+        { name: "Credential", url: "https://www.youracclaim.com/badges/2ea117a4-d8b2-4131-9128-d3efb138af07" },
+      ]
+    },
+    {
+      image: require("./assets/images/CERT-Fundamentals-Power-Platform.png"),
+      footerLink: [
+        { name: "Credential", url: "https://www.youracclaim.com/badges/4a61afb0-de5c-4d84-9ba0-a06b93cd752e" },
+      ]
+    },
+    {
+      image: require("./assets/images/dynamics365-fundamentals-600x600.png"),
+      footerLink: [
+        { name: "Credential", url: "https://www.youracclaim.com/badges/dc4e4b9d-ca8a-42d5-a82f-6dfafbc75571" },
+      ]
+    },
   ]
 };
 
@@ -268,8 +278,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  //number: "+92-3243454077",
+  email_address: "duartefdias@outlook.com"
 };
 
 //Twitter Section
